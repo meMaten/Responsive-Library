@@ -360,11 +360,11 @@
     /* END OF BOOKSHOP-HEADER */
 
     .ads-section {
-        height: 30vh;
+        height: 50vh;
     }
 
     .section-img {
-        height: 30vh;
+        height: 50vh;
         display: flex;
         align-self: baseline;
     }
@@ -513,11 +513,11 @@
     /*  */
 
     .ads-section {
-        height: 30vh;
+        height: 40vh;
     }
 
     .section-img {
-        height: 30vh;
+        height: 40vh;
     }
 
     .section-txt {
