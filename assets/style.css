@@ -13,7 +13,7 @@
     justify-content: space-around;
     box-shadow: 0 0 20px 0 gainsboro;
     align-items: center;
-    /* color: rgb(54, 54, 54); */
+    color: rgb(54, 54, 54);
 }
 
 .bookshop-brand {
@@ -40,12 +40,15 @@
     display: flex;
     align-items: center;
 }
+
 .bookshop-nav span {
     text-transform: uppercase;
     font-weight: 700;
 }
 
+
 /* END OF BOOKSHOP-BRAND */
+
 
 .search-bar {
     height: 30px;
@@ -65,6 +68,7 @@
     text-decoration: none;
     color: rgb(54, 54, 54);
 }
+
 .search-bar input {
     margin: 0 0 0 5px;
     height: 30px;
@@ -72,7 +76,9 @@
     border-style: hidden;
 }
 
+
 /* END OF SEARCH-BAR */
+
 
 .account-icons {
     width: 300px;
@@ -84,7 +90,6 @@
     padding: 0 5px 0 5px;
     color:  rgb(54, 54, 54);
 }
-
 
 
 /* END OF BOOKSHOP-NAV */
@@ -123,6 +128,7 @@
 
 
 /* END OF BOOKSHOP-HEADER */
+
 
 .ads-section {
     width: 100%;
@@ -180,6 +186,7 @@
     text-decoration: none;
 }
 
+
 /* END OF ADS-SECTION */
 
 
@@ -214,7 +221,6 @@
     font-size: 40px;
 }
 
-
 .services-list h5 {
     font-size: 20px;
 }
@@ -227,7 +233,9 @@
     display: none;
 }
 
-/*  */
+
+/* END OF SERVICES-SECTION */
+
 
 .row {
     
@@ -259,7 +267,6 @@
     color: #545454;
     width: 250px;
 }
-
 
 .card-row {
     width: 77.2%;
@@ -310,6 +317,9 @@
     align-self: center;
     margin: 10px 0 10px 0;
 }
+
+
+/*  */
 
 
 @media (max-width: 1300px) and (min-width: 621px) {
@@ -454,6 +464,7 @@
     }
 
 }
+
 
 @media (max-width: 620px) and (min-width: 415px) {
     
@@ -645,7 +656,8 @@
 
     
 }
-   
+
+
 @media (max-width: 414px) and (min-width: 280px) {
     .bookshop-nav {
         height: 120px;
