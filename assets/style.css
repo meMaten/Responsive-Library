@@ -230,6 +230,7 @@
 /*  */
 
 .row {
+    
     display: flex;
 }
 
@@ -303,9 +304,8 @@
 
 .book-price {
     text-decoration: none;
-    color: #c2a02e;
-    background-color: rgba(245, 245, 245, 0.911);
-    border: 2px solid #c2a02e;
+    color: white;
+    background-color: #345f4e;
     padding: 10px;
     align-self: center;
     margin: 10px 0 10px 0;
@@ -636,6 +636,10 @@
 
     .service-details {
         color: #c2a02e;
+    }
+
+    .service-details p {
+        color: rgb(54, 54, 54);
     }
 
 
