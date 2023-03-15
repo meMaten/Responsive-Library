@@ -1,0 +1,809 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.bookshop-nav {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 20px 0 gainsboro;
+    align-items: center;
+    color: rgb(54, 54, 54);
+}
+
+.bookshop-brand {
+    height: 100%;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.menu-list-responsive-1 span{
+    display: none;
+}
+
+.bookshop-brand img  {
+    height: 50px;
+    padding: 0 5px 0 5px;
+}
+
+.logo-name {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+}
+.bookshop-nav span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* END OF BOOKSHOP-BRAND */
+
+.search-bar {
+    height: 30px;
+    padding: 10px 0 10px 5px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px gainsboro; ;
+}
+
+.menu-list-responsive-2 {
+    display: none;
+}
+
+.search-bar a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+.search-bar input {
+    margin: 0 0 0 5px;
+    height: 30px;
+    width: 400px;
+    border-style: hidden;
+}
+
+/* END OF SEARCH-BAR */
+
+.account-icons {
+    width: 300px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.account-icons a {
+    padding: 0 5px 0 5px;
+    color:  rgb(54, 54, 54);
+}
+
+
+
+/* END OF BOOKSHOP-NAV */
+
+
+.bookshop-header {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-list {
+    width: 800px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list li{
+    margin-right: 20px ;
+}
+
+.menu-list a {
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+}
+
+.menu-list a:hover {
+    border-bottom: 2px solid 
+    #c2a02e;
+    position: relative;
+    top: 1.5px;
+}
+
+
+/* END OF BOOKSHOP-HEADER */
+
+.ads-section {
+    width: 100%;
+    height: 40vh;
+    background-image: url(images/bookshelf.jpg);
+    background-size: cover;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-img {
+    height: 40vh;
+    display: flex;
+    align-self: baseline;
+}
+
+.section-img img {
+    height: auto;
+    width: 100%;
+}
+
+.section-txt {
+    width: 600px;
+    height: 200px;
+    font-size: 30px;
+}
+
+.section-txt h5 {
+    margin: 0 0 5px 0;
+}
+
+.section-txt h1 {
+    margin: 5px 0 5px 0;
+    font-size: 2em;
+    word-spacing: 10px;
+}
+
+.section-txt h3 {
+    margin: 5px 0 15px 0;
+}
+
+.section-txt a {
+    height: 50px;
+    padding: 10px 30px 10px 30px;
+    margin: 10px 0 0 0;
+    background-color: #345f4e;
+    border-radius: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: whitesmoke;
+    border-style: hidden;
+    text-decoration: none;
+}
+
+/* END OF ADS-SECTION */
+
+
+.services-section {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0 gainsboro;
+}
+
+.services-list {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.services-list li {
+    padding: 5px;
+    width: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid gainsboro;
+}
+
+.service-icon {
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 40px;
+}
+
+
+.services-list h5 {
+    font-size: 20px;
+}
+
+.services-list p {
+    font-size: 15px;
+}
+
+.services-aside-responsive {
+    display: none;
+}
+
+/*  */
+
+.row {
+    display: flex;
+}
+
+.bestsellers-section {
+    width: 100%;
+    padding: 20px;
+}
+
+.header-link {
+    height: 60px;
+    margin: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #c2a02e;
+    width: 250px;
+    text-align: right;
+}
+
+.header-link h1 {
+    color: #545454;
+    width: 250px;
+}
+
+
+.card-row {
+    width: 77.2%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 12.5% 0 12.5%;
+}
+
+.card {
+    width: 190px;
+    height: 410px;
+    background-color: whitesmoke;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-image {
+    height: 300px;
+    width: 180px;
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+}
+
+.book-info  {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-title {
+    font-weight: 800;
+    display: block;
+}
+
+.book-author {
+    font-size: 12px;
+    display: block;
+}
+
+.book-price {
+    text-decoration: none;
+    color: #c2a02e;
+    background-color: rgba(245, 245, 245, 0.911);
+    border: 2px solid #c2a02e;
+    padding: 10px;
+    align-self: center;
+    margin: 10px 0 10px 0;
+}
+
+
+@media (max-width: 1300px) and (min-width: 621px) {
+    .bookshop-nav {
+        justify-content: space-between;
+    }
+
+    .bookshop-brand {
+        width: 200px;
+    }
+
+    .menu-list-responsive-1 {
+        text-decoration: none;
+        color: rgb(54, 54, 54);
+    }
+    .menu-list-responsive-1 span{
+        display: block;
+        padding: 0 5px 0 0;
+        
+    }
+
+    .search-bar {
+        width: 320px;
+        margin-left: 25px;
+    }
+    .search-bar input {
+        width: 225px;
+    }
+
+    .account-icons {
+        width: 150px;
+        text-align: center;
+    }
+    .account-icons a {
+        padding: 0 3px 0 3px;
+    }
+
+    /* END OF BOOKSHOP-NAV */
+
+    .bookshop-header {
+        display: none;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    /* END OF BOOKSHOP-HEADER */
+
+    .ads-section {
+        height: 30vh;
+    }
+
+    .section-img {
+        height: 30vh;
+        display: flex;
+        align-self: baseline;
+    }
+    
+    .section-txt {
+        width: 180px;
+        height: 50%;
+        font-size: 10px;
+    }
+
+    .section-txt h5 {
+        margin: 0 0 5px 0;
+    }
+    
+    .section-txt h1 {
+        margin: 5px 0 5px 0;
+        font-size: 2em;
+        word-spacing: 5px;
+    }
+    
+    .section-txt h3 {
+        margin: 5px 0 15px 0;
+    }
+
+    .section-txt a {
+        height: 25px;
+        padding: 8px 15px 8px 15px;
+        margin: 10px 0 0 0;
+        border-radius: 40px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    /* END OF ADS-SECTION */
+
+    .services-section {
+        display: none;
+    }
+
+    .services-aside-responsive {
+        display: block;
+        width: 20%;
+        padding: 25px 10px 0 0;
+    }
+
+    .list-responsive {
+        padding: 0 0 0 0;
+        list-style-type: none;
+    }
+
+    .service-icon {
+        color: #345f4e;
+    }
+
+    .service-details {
+        color: #c2a02e;
+    }
+
+   
+    /*  */
+
+    .row {
+        width: 100%;
+    }
+
+    .bestsellers-section {
+        width: 80%;
+    }
+
+    .header-link {
+        margin: 0;
+        padding: 0 5% 0 5%;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .header-link h1 {
+        width: 200px;
+    }
+
+    .header-link a {
+        width: 200px;
+    }
+
+}
+
+@media (max-width: 620px) and (min-width: 415px) {
+    
+    .bookshop-nav {
+        height: 120px;
+    }
+    .bookshop-brand {
+        order: 2;
+        width: 100px;
+        height: 100%;
+        align-items: center;
+    }
+
+    .logo-name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0 5px 0;
+    }
+
+    .search-bar {
+        order: 1;
+        width: 80px;
+        height: 45px;
+        box-shadow: none;
+    }
+
+    .menu-list-responsive-2 {
+        display: block;
+    }
+
+
+    .search-bar span {
+        font-size: 30px;
+        padding: 0 5px 0 3px;
+    }
+
+    .search-bar input {
+        display: none;
+    }
+
+    .account-icons {
+        order: 2;
+        width: 60px;
+    }
+
+    .account-icons a {
+        padding: 0 1px 0 1px;
+    }
+
+    /*  */
+
+    .bookshop-header {
+        display: none;
+    }
+
+    /*  */
+
+    .ads-section {
+        height: 30vh;
+    }
+
+    .section-img {
+        height: 30vh;
+    }
+
+    .section-txt {
+        width: 150px;
+        height: 50%;
+        font-size: 10px;
+    }
+
+    .section-txt h5 {
+        margin: 0;
+        word-spacing: 2px;
+    }
+    .section-txt h1 {
+        margin: 5px 0 5px 0;
+        font-size: 15px;
+        word-spacing: 5px;
+    }
+
+    .section-txt h3 {
+        margin: 0 0 5px 0;
+        word-spacing: 3px;
+    }
+
+    .section-txt a {
+        height: 20px;
+        padding: 3px 8px 3px 8px;
+        margin: 0 0 0 0;
+        font-size: 8px;
+    }   
+
+    /*  */
+
+    
+    .row {
+        justify-content: center;
+    }
+    
+    .bestsellers-section {
+        width: 65%;
+        padding: 0px;
+
+    }
+
+    .header-link {
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+        justify-content: space-around;
+    }
+
+    .header-link h1 {
+        width: unset;
+    }
+    
+    .header-link a {
+        width: unset;
+    }
+    .card-row {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .card {
+        width: 250px;
+        height: 150px;
+        flex-direction: row;
+        margin: 0 20px 20px 0;
+        justify-content: center;
+    }
+
+    .book-image {
+        width: 100px;
+        height: 150px;
+    }
+
+    .book-info {
+        width: 60%;
+        height: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+    .book-title {
+        word-spacing: 2px;
+        text-align: center;
+    }
+    .book-author {
+        text-align: center;
+    }
+
+
+    /*  */
+    
+    .services-section {
+        display: none;
+    }
+
+    
+    .services-aside-responsive {
+        display: block;
+        width: 25%;
+        padding: 25px 10px 0 10px;
+    }
+
+    .list-responsive {
+        padding: 0 0 0 0;
+        list-style-type: none;
+        font-size: 15px;
+    }
+
+    .service-icon {
+        color: #345f4e;
+    }
+
+    .service-details {
+        color: #c2a02e;
+    }
+
+
+    
+}
+   
+@media (max-width: 414px) and (min-width: 280px) {
+    .bookshop-nav {
+        height: 120px;
+    }
+    .bookshop-brand {
+        order: 2;
+        width: 100px;
+        height: 100%;
+        align-items: center;
+    }
+
+    .logo-name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0 5px 0;
+    }
+
+    .search-bar {
+        order: 1;
+        width: 80px;
+        height: 45px;
+        box-shadow: none;
+    }
+
+    .menu-list-responsive-2 {
+        display: block;
+    }
+
+
+    .search-bar span {
+        font-size: 30px;
+        padding: 0 5px 0 3px;
+    }
+
+    .search-bar input {
+        display: none;
+    }
+
+    .account-icons {
+        order: 2;
+        width: 60px;
+    }
+
+    .account-icons a {
+        padding: 0 1px 0 1px;
+    }
+    
+    /* END OF BOOKSHOP-NAV */
+
+    .bookshop-header {
+        display: none;
+    }
+
+
+    /* END OF BOOKSHOP-HEADER */
+
+    .ads-section {
+        height: 30vh;
+    }
+
+    .section-img {
+        height: 30vh;
+    }
+
+    .section-txt {
+        width: 150px;
+        height: 50%;
+        font-size: 10px;
+    }
+
+    .section-txt h5 {
+        margin: 0;
+        word-spacing: 2px;
+    }
+    .section-txt h1 {
+        margin: 5px 0 5px 0;
+        font-size: 15px;
+        word-spacing: 5px;
+    }
+
+    .section-txt h3 {
+        margin: 0 0 5px 0;
+        word-spacing: 3px;
+    }
+
+    .section-txt a {
+        height: 20px;
+        padding: 3px 8px 3px 8px;
+        margin: 0 0 0 0;
+        font-size: 8px;
+    }
+
+    /* END OF ADS-SECTION */
+
+    .row {
+        justify-content: center;
+    }
+    
+    .bestsellers-section {
+        width: 75%;
+        padding: 20px;
+
+    }
+
+    .header-link {
+        width: 100%;
+        font-size: 12px;
+    }
+    .card-row {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+
+    .card {
+        width: 250px;
+        height: 150px;
+        flex-direction: row;
+        margin: 0 20px 20px 0;
+    }
+
+    .book-image {
+        width: 100px;
+        height: 150px;
+    }
+
+    .book-info {
+        width: 60%;
+        height: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+    .book-title {
+        word-spacing: 2px;
+        text-align: center;
+    }
+    .book-author {
+        text-align: center;
+    }
+
+    /* END OF ROW */
+
+    .services-section {
+        display: none;
+    }
+
+    .services-aside-responsive {
+        display: none;
+    }
+
+    /* .list-responsive {
+        padding: 0 0 0 0;
+        list-style: none;
+    } */
+
+    /* .list-responsive div {
+        display: none;
+    } */
+
+}
+
+    
+    
+
