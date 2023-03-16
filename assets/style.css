@@ -6,6 +6,13 @@
 
 }
 
+/* 
+    DESKTOPs
+        1920 x 1080
+        1280 x 720
+        
+ */
+
 .bookshop-nav {
     width: auto;
     height: 100px;
@@ -321,8 +328,14 @@
 
 /*  */
 
+/* 
+   TABLET
+        1280 x 800
+        601 x 962
+ */
 
-@media (max-width: 1300px) and (min-width: 621px) {
+
+@media (max-width: 1280px) and (min-width: 415px) {
     .bookshop-nav {
         justify-content: space-between;
     }
@@ -465,198 +478,11 @@
 
 }
 
-
-@media (max-width: 620px) and (min-width: 415px) {
-    
-    .bookshop-nav {
-        height: 120px;
-    }
-    .bookshop-brand {
-        order: 2;
-        width: 100px;
-        height: 100%;
-        align-items: center;
-    }
-
-    .logo-name {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5px 0 5px 0;
-    }
-
-    .search-bar {
-        order: 1;
-        width: 80px;
-        height: 45px;
-        box-shadow: none;
-    }
-
-    .menu-list-responsive-2 {
-        display: block;
-    }
-
-
-    .search-bar span {
-        font-size: 30px;
-        padding: 0 5px 0 3px;
-    }
-
-    .search-bar input {
-        display: none;
-    }
-
-    .account-icons {
-        order: 2;
-        width: 60px;
-    }
-
-    .account-icons a {
-        padding: 0 1px 0 1px;
-    }
-
-    /*  */
-
-    .bookshop-header {
-        display: none;
-    }
-
-    /*  */
-
-    .ads-section {
-        height: 40vh;
-    }
-
-    .section-img {
-        height: 40vh;
-    }
-
-    .section-txt {
-        width: 150px;
-        height: 50%;
-        font-size: 10px;
-    }
-
-    .section-txt h5 {
-        margin: 0;
-        word-spacing: 2px;
-    }
-    .section-txt h1 {
-        margin: 5px 0 5px 0;
-        font-size: 15px;
-        word-spacing: 5px;
-    }
-
-    .section-txt h3 {
-        margin: 0 0 5px 0;
-        word-spacing: 3px;
-    }
-
-    .section-txt a {
-        height: 20px;
-        padding: 3px 8px 3px 8px;
-        margin: 0 0 0 0;
-        font-size: 8px;
-    }   
-
-    /*  */
-
-    
-    .row {
-        justify-content: center;
-    }
-    
-    .bestsellers-section {
-        width: 65%;
-        padding: 0px;
-
-    }
-
-    .header-link {
-        width: 100%;
-        margin: 0;
-        font-size: 12px;
-        justify-content: space-around;
-    }
-
-    .header-link h1 {
-        width: unset;
-    }
-    
-    .header-link a {
-        width: unset;
-    }
-    .card-row {
-        width: 100%;
-        padding: 0;
-        align-items: center;
-        margin: 0;
-        justify-content: center;
-    }
-
-    .card {
-        width: 250px;
-        height: 150px;
-        flex-direction: row;
-        margin: 0 20px 20px 0;
-        justify-content: center;
-    }
-
-    .book-image {
-        width: 100px;
-        height: 150px;
-    }
-
-    .book-info {
-        width: 60%;
-        height: 100%;
-        padding: 0;
-        justify-content: center;
-    }
-    .book-title {
-        word-spacing: 2px;
-        text-align: center;
-    }
-    .book-author {
-        text-align: center;
-    }
-
-
-    /*  */
-    
-    .services-section {
-        display: none;
-    }
-
-    
-    .services-aside-responsive {
-        display: block;
-        width: 25%;
-        padding: 25px 10px 0 10px;
-    }
-
-    .list-responsive {
-        padding: 0 0 0 0;
-        list-style-type: none;
-        font-size: 15px;
-    }
-
-    .service-icon {
-        color: #345f4e;
-    }
-
-    .service-details {
-        color: #c2a02e;
-    }
-
-    .service-details p {
-        color: rgb(54, 54, 54);
-    }
-
-
-    
-}
-
+ /*
+    MOBILE
+        414 x 896
+        360 x 640 
+ */
 
 @media (max-width: 414px) and (min-width: 280px) {
     .bookshop-nav {

@@ -13,6 +13,13 @@
             font-family: 'Lato', sans-serif;
         }
 
+
+        /* 
+            DESKTOPs
+                1920 x 1080
+                1280 x 720
+        */
+
         body {
             background-image: url(assets/images/books-1.jpg);
             background-size: cover;
@@ -21,23 +28,19 @@
             color: rgb(54, 54, 54);
         }
 
-
-        /*  */
-
-
         .margin-nav  {
             background-color: rgb(255, 255, 255);
-            padding: 20px;
-            width: 70%;
+            padding: 15px;
+            width: 70vw;
             height: 80vh;
             box-sizing: border-box;
             box-shadow: 5px 5px 15px 15px rgba(0, 0, 0, 0.486);
-            margin: 15% auto;
+            margin: 5% auto;
         }
 
         .nav-header {
             display: flex;
-            height: 100px;
+            height: 13vh;
             width: 100%;
             justify-content: space-between;
             color: rgba(54, 54, 54, 0.418);
@@ -51,7 +54,8 @@
         }
 
         .header-main {
-            width: 500px;
+            height: 50%;
+            width: 540px;
             text-align: center;
         }
 
@@ -62,12 +66,12 @@
         }
 
         .brand-logo {
-            height: 50px;
+            height: 8vh;
         }
 
         .brand-txt {
             margin-left: 10px;
-            font-size: 25px;
+            font-size: 50px;
             color: rgb(54, 54, 54);
         }
 
@@ -79,22 +83,19 @@
             padding: 0;
             text-align: center;
             align-items: center;
+            justify-content: space-around;
         }
 
-        .main-list li {
-            margin-right: 16px;
-
-        }
         .main-list a {
             text-decoration: none;
-            color: rgba(54, 54, 54, 0.418)
+            color: rgba(54, 54, 54, 0.418);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
 
         .main-list a:hover {
             color: rgb(54, 54, 54);
-            border-bottom: 1px solid rgb(54, 54, 54);
-            position: relative;
-            top: 1.5px;
         }
         
         .main-list span {
@@ -122,121 +123,40 @@
 
         /* END OF MARGIN NAV */
 
-
-        .row {
-            height: 80%;
-            display: flex;
-            padding: 10px 25px;
-            justify-content: space-around;
-        }
-
-
-       
-
-        /*  */
         
 
-        @media (max-width: 1300px) and (min-width:621px) {
 
-            .margin-nav  {  
+        @media (max-width: 1280px) and (min-width: 601px) {
+
+            /* 
+            TABLET
+                1280 x 800
+                601 x 962
+            RESP
+                415 x 897
+
+            */         
+
+            .margin-nav  {
+                height: 100vh;
                 width: 85%;
-                padding: 5px;
-                margin: 15% auto;
+                padding: 1vw;
+                margin: 10vh 8%;
+            }
+
+            .nav-header {
+                height: 12vh;
+                font-size: 9px;
             }
             
-            .nav-header {
-                height: 70px;
-                font-size: 10px;
-            }
-
             .header-location  {
                 padding: 5px 0 0 5px;
-                width: 120px;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                word-spacing: 3px;
-            }
-            .header-main {
-                width: 400px;
-                text-align: center;
-            }
-            
-            .main-brand {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .brand-logo {
-                height: 40px;
-            }
-
-            .brand-txt {
-                margin-left: 10px;
-                font-size: 18px;
-            }
-
-            .main-list {
-                height: 25px;
-                padding: 0;
-                text-align: center;
-                align-items: center;
-            }
-
-            .main-list li {
-                margin-right: 10px;;
-
-            }
-            .main-list a {
-                text-decoration: none;
-                color: rgba(54, 54, 54, 0.418)
-            }
-            
-            .main-list span {
-                font-weight: 500;
-            }
-            
-            .bell-icon {
-                width: 120px;
-            }
-
-            .bell-icon span {
-                font-size: 22px;
-            }
-
-            .main-list-resp {
-                display: none;
-            }
-        
-            /* END OF MARGIN NAV */
-
-        }
-
-
-        @media (max-width: 620px) and (min-width:415px) {
-            body {
-                background-size: contain;
-            }
-            .margin-nav  {
-                height: 85vh;
-                width: 100%;
-                padding: 10px;
-                margin: 25% 0 0 0;
-                
-            }
-            .nav-header {
-                height: 65px;
-                font-size: 9px ;
-            }
-            .header-location  {
-                padding: 10px 0 0 10px;
-                width: 110px;
+                width: 150px;
                 height: 80px;
+                font-size: 15px;
             }
+
             .header-main {
-                width: 250px;
                 text-align: center;
             }
             
@@ -247,12 +167,12 @@
             }
 
             .brand-logo {
-                height: 35px;
+                width: 50px;
             }
 
             .brand-txt {
+                font-size: 25px;
                 margin-left: 10px;
-                font-size: 22px;
                 color: rgb(54, 54, 54);
             }
 
@@ -268,7 +188,7 @@
             }
 
             .main-list-resp a {
-                color: rgba(54, 54, 54, 0.418)
+                color: rgba(54, 54, 54, 0.418);
             }
 
             .main-list-resp a:hover {
@@ -277,49 +197,62 @@
 
             .main-list-resp .nav-btns {
                 padding: 5px;
-                font-size: 20px;
+                font-size: 1220px;
             }
             
             .list-item {
-                font-size: 12px;
+                font-size: 20px;
                 font-weight: 700;
             }
             
             .bell-icon {
-                width: 110px;
+                width: 20vw;
             }
+
             .bell-icon span {
-                font-size: 12px;
+                font-size: 30px;
             }
 
             /* END OF MARGIN NAV */
 
-            .row {
-                flex-direction: column;
+            .row section {
+                order: 2;
             }
             
+        }
+    
+        
 
-        }      
+        @media (max-width: 600px) and (min-width: 280px) {
+            /*
+                MOBILE
+                    414 x 896
+                    360 x 640 
+                    280 x 653
+            */
 
 
-        @media (max-width:414px) and (min-width: 280px) {
             body {
                 background-size: contain;
             }
+
             .margin-nav  {
-                width: 101%;
-                height: 85vh;
-                padding: 5px;
-                margin: 35% 0 0 0;
+                height: 90vh;
+                width: 100%;
+                padding: 10px;
+                margin: 180px 0 0 0;
             }
+
             .nav-header {
-                height: 60px;
+                height: 90px;
                 font-size: 8px;
             }
+
             .header-location  {
                 width: 100px;
                 height: 50px;
                 padding: 0 0 0 0;
+                font-size: 8px;
             }  
 
             .header-main {
@@ -329,14 +262,13 @@
             
             .main-brand {
                 display: flex;
+                flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                
-                
             }
 
             .brand-logo {
-                height: 30px;
+                height: 45px;
             }
 
             .brand-txt {
@@ -374,86 +306,247 @@
                 font-size: 10px;
                 font-weight: 700;
             }
+
             .bell-icon {
-                width: 100px;
+                width: 80px;
             }
 
             .bell-icon span {
-                font-size: 17px;
+                font-size: 20px;
             }
+
 
             /* END OF MARGIN NAV */
 
-            .row {
-                flex-direction: column;
+            .row section {
+                order: 2;
             }
-            
 
-            
+
         }
 
     </style>
-    
+
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
     <title>Checkout</title>
+
+
 </head>
+
+
+<!--
+    
+DESKTOPs
+    1920 x 1080
+    1280 x 720
+TABLET
+    1280 x 800
+    601 x 962
+RESP
+    415 x 897
+MOBILE
+    414 x 896
+    360 x 640 
+    280 x 653
+ -->
+ 
+
 <body>
     <div class="margin-nav">
         <header class="nav-header">
             <div class="header-location">
-                    <span>shipping to manila</span>
-                    <span>store location</span>
+                <span>shipping to manila</span>
+                <span>store location</span>
             </div>
             <div class="header-main">
                 <div class="main-brand">
-                        <img class="brand-logo" src="assets/images/logo.png" alt="">
-                        <span class="brand-txt">
+                    <img class="brand-logo" src="assets/images/logo.png" alt="">
+                    <span class="brand-txt">
                             Bookshop
-                        </span>
+                    </span>
                 </div>
                 <ul class="main-list">
-                        <li>
-                            <a href="">
+                    <li>
+                        <a href="">
                                 back to shop
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                shopping bag
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" style="color: rgb(54,54,54); border-bottom: 1px solid rgb(54, 54, 54); position: relative; top: 1.5px;">
-                                checkout
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                confirmation
-                            </a>
-                        </li>
+                            <span class="material-symbols-outlined">
+                                arrow_right
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            shopping bag
+                            <span class="material-symbols-outlined">
+                                arrow_right
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" style="color: rgb(54,54,54);">
+                            checkout
+                            <span class="material-symbols-outlined">
+                                arrow_right
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            confirmation
+                            <span class="material-symbols-outlined">
+                                arrow_right
+                            </span>
+                        </a>                   
+                    </li>
                 </ul>
                 <div class="main-list-resp">
                     <a href="#">
-                            <span class="material-symbols-outlined nav-btns">navigate_before
-                            </span>
+                        <span class="material-symbols-outlined">
+                            arrow_left
+                        </span>
                     </a>
-                    <span class="list-item">checkout</span>
+                    <span class="list-item">
+                        checkout
+                    </span>
                     <a href="#">
-                            <span class="material-symbols-outlined nav-btns">
-                                navigate_next
-                            </span>
+                        <span class="material-symbols-outlined">
+                            arrow_right
+                        </span>
                     </a>
                 </div>
             </div>
             <a class="bell-icon" href="#">
                 <span class="material-symbols-outlined">
-                            notifications
+                    notifications
                 </span>
             </a>
         </header>
-        <h1>Checkout</h1>
-        <div class="row">
+        <div style="width: 100%; display: flex; flex-direction: column;">
+            <h1>Checkout</h1>
+            <div class="row" style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+                <section class="card-row" style="display: flex; flex-direction: column; justify-content: space-around;">
+                    <h2>SHIPPING DETAILS</h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Marvin the Martian</td>
+                                <td>marvinTheMartian@spacemail.com</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    4th Solar
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Milky Way
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Universe
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h2>PAYMENT DETAILS</h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="">NAME ON CARD</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="">CARD NUMBER</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="">VALID THROUGH</label>
+                                </td>
+                                <td>
+                                    <label for="">CVC CODE</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text">
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr style="background-color: #345f4e;">
+                                <td colspan="2" style="color:white; text-align: center;">
+                                    PURCHASE
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <aside style="display: flex; flex-direction: column; justify-content: space-around;">
+                    <h2>YOUR ORDER</h2>
+                    <span>EDIT SHOPPING BAG</span>
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="assets/images/image1.jpg" alt="" style="width: 70px;">
+                            </td>
+                            <td>
+                                <h3> To Kill A Mockingbird</h3>
+                                <span> Harper Lee</span>
+                            </td>
+                            <td>1</td>
+                            <td>19.99</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/images/image1.jpg" alt="" style="width: 70px;">
+                            </td>
+                            <td>
+                                <h3> To Kill A Mockingbird</h3>
+                                <span> Harper Lee</span>
+                            </td>
+                            <td>1</td>
+                            <td>19.99</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/images/image1.jpg" alt="" style="width: 70px;">
+                            </td>
+                            <td>
+                                <h3> To Kill A Mockingbird</h3>
+                                <span> Harper Lee</span>
+                            </td>
+                            <td>1</td>
+                            <td>19.99</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" style="text-align: center;">
+                                <a href="" style="border: 1px  solid #345f4e; text-decoration: none; color: #345f4e;">
+                                    ADD TO CART
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                    <div>
+                        
+                    </div>
+                </aside>
+            </div>  
         </div>
     </div>
 </body>
